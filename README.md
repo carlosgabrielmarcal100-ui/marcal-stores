@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marçal Stores - Brainrot Exclusivos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Bebas Neue', cursive;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: #ff0055;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      box-shadow: 0 0 15px #ff0055;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+    }
+    .product {
+      background: #222;
+      margin: 20px;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 0 10px #ff005566;
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      display: block;
+    }
+    .info {
+      padding: 15px;
+      text-align: center;
+    }
+    .info h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #ffcc00;
+    }
+    .info p {
+      margin: 5px 0;
+      font-size: 1.1rem;
+    }
+    .buy-btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: #25d366;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 6px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .buy-btn:hover {
+      background: #1ebe5d;
+    }
+    @media screen and (max-width: 600px) {
+      .product {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>🧠 Marçal Stores - Brainrot Exclusivos</header>
+  <div class="container">
+
+    <!-- Produto 1 -->
+    <div class="product">
+      <img src="img1.png" alt="Los Hotspotsitos">
+      <div class="info">
+        <h2>Los Hotspotsitos</h2>
+        <p>💸 R$175,00</p>
+        <p>🔥 $60M/s | Coleta: $784B</p>
+        <a class="buy-btn" href="https://wa.me/5519996864913?text=Olá!%20Tenho%20interesse%20no%20pet%20*Los%20Hotspotsitos*%20por%20R$175,00.">Comprar no WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Produto 2 -->
+    <div class="product">
+      <img src="img2.png" alt="La Grande Combinasion">
+      <div class="info">
+        <h2>La Grande Combinasion</h2>
+        <p>💸 R$90,00</p>
+        <p>🔥 $40M/s | Coleta: $551B</p>
+        <a class="buy-btn" href="https://wa.me/5519996864913?text=Olá!%20Tenho%20interesse%20no%20pet%20*La%20Grande%20Combinasion*%20por%20R$90,00.">Comprar no WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Produto 3 -->
+    <div class="product">
+      <img src="img3.png" alt="Chicleteira Bicicleteira">
+      <div class="info">
+        <h2>Chicleteira Bicicleteira</h2>
+        <p>💸 R$75,00</p>
+        <p>🔥 $29.7M/s | Coleta: $7.7B</p>
+        <a class="buy-btn" href="https://wa.me/5519996864913?text=Olá!%20Tenho%20interesse%20no%20pet%20*Chicleteira%20Bicicleteira*%20por%20R$75,00.">Comprar no WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Produto 4 -->
+    <div class="product">
+      <img src="img4.png" alt="Los Combinasionas">
+      <div class="info">
+        <h2>Los Combinasionas</h2>
+        <p>💸 R$125,00</p>
+        <p>🔥 $60M/s | Coleta: $881B</p>
+        <a class="buy-btn" href="https://wa.me/5519996864913?text=Olá!%20Tenho%20interesse%20no%20pet%20*Los%20Combinasionas*%20por%20R$125,00.">Comprar no WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Produto 5 -->
+    <div class="product">
+      <img src="img5.png" alt="Graipuss Medussi">
+      <div class="info">
+        <h2>Graipuss Medussi</h2>
+        <p>💸 R$37,50</p>
+        <p>🔥 $10M/s | Coleta: $3.4B</p>
+        <a class="buy-btn" href="https://wa.me/5519996864913?text=Olá!%20Tenho%20interesse%20no%20pet%20*Graipuss%20Medussi*%20por%20R$37,50.">Comprar no WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Produto 6 -->
+    <div class="product">
+      <img src="img6.png
+      " alt="Los Spyderinis">
+      <div class="info">
+        <h2>Los Spyderinis</h2>
+        <p>💸 R$45,50</p>
+        <p>🔥 $10.6M/s | Coleta: $1.1B</p>
+        <a class="buy-btn" href="https://wa.me/5519996864913?text=Olá!%20Tenho%20interesse%20no%20pet%20*Los%20Spyderinis*%20por%20R$45,50.">Comprar no WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Produto 7 -->
+    <div class="product">
+      <img src="img7.png" alt="Job Job Job Sahur">
+      <div class="info">
+        <h2>Job Job Job Sahur</h2>
+        <p>💸 R$25,00</p>
+        <p>🔥 $4.9M/s | Coleta: $156B</p>
+        <a class="buy-btn" href="https://wa.me/5519996864913?text=Olá!%20Tenho%20interesse%20no%20pet%20*Job%20Job%20Job%20Sahur*%20por%20R$25,00.">Comprar no WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
